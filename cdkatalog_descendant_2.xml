@@ -31,7 +31,7 @@
         <th>Naslov</th>
         <th>Izvođač</th>
       </tr>
-  <xsl:for-each select="descendant::cd">
+  <xsl:for-each select="katalog/cd">
       <tr>
         <td><xsl:value-of select="naslov" /></td>
         <td><xsl:value-of select="izvođač" /></td>
