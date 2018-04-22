@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<script type="text/javascript">
+// Load XML 
+var xml = new ActiveXObject("Microsoft.XMLDOM")
+xml.async = false
+xml.load("cdcatalog_1.xml")
+
+// Load the XSL
+var xsl = new ActiveXObject("Microsoft.XMLDOM")
+xsl.async = false
+xsl.load("cdcatalog_zavrsni.xsl")
+
+// Transform
+document.write(xml.transformNode(xsl))
+</script>
+
+</body>
+</html>
+
