@@ -4,7 +4,7 @@
 <xsl:template match="/">
 <html lang="en">
 	<head>
-		<title>XML programiranje</title>
+		<title>Programiranje web aplikacija</title>
 		<style>
 			body {
 				width: 70%;
