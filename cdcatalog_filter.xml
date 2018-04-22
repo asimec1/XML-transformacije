@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="cdcatalog_filter.xslt"?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog_filter.xsl"?>
 <catalog>
 	<cd>
 		<title>Empire Burlesque</title>
