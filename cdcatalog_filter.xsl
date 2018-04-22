@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- Edited with XML Spy v4.2 -->
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
+  <head>
+		<title>XML programiranje</title>
+		<style>
+			body {
+				width: 70%;
+				margin: 5px auto;
+				font-family: Verdana, sans-serif;
+				font-size: 18px;
+			}
+			table {
+				width: 100%;
+			}
+			th {
+				background-color: #719f16;
+				color: white;
+			}
+			td {
+				padding: 2px;
+				border: 1px dotted grey;
+			}
+		</style>
+	</head>
   <body>
     <table border="1">
       <tr bgcolor="#9acd32">
