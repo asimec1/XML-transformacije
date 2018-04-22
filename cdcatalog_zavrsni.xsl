@@ -5,12 +5,34 @@
 
 <xsl:template match="/">
   <html>
+  <head>
+		<title>Programiranje web aplikacija</title>
+		<style>
+			body {
+				width: 70%;
+				margin: 5px auto;
+				font-family: Verdana, sans-serif;
+				font-size: 18px;
+			}
+			table {
+				width: 100%;
+			}
+			th {
+				background-color: #719f16;
+				color: white;
+			}
+			td {
+				padding: 2px;
+				border: 1px dotted grey;
+			}
+		</style>
+	</head>
   <body>
   <h2>My CD Collection</h2>
     <table border="1">
-      <tr bgcolor="#9acd32">
-        <th align="left">Title</th>
-        <th align="left">Artist</th>
+      <tr>
+        <th align="left">Naslov</th>
+        <th align="left">Izvodac</th>
       </tr>
       <xsl:for-each select="catalog/cd">
       <tr>
